@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- (require('./common/common_meta'))() %>
+    <title>tpl1</title>
+    <%- (require('./common/common_header'))() %>
+</head>
+<body>
+    <h1>
+        现在的时间是：
+        <%= (new Date()).toLocaleString() %>
+    </h1>
+</body>
+</html>
