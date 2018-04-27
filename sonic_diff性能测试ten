@@ -1,0 +1,240 @@
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 06a6bf55bae87276ed22460d986393990a8618d6
+页面md5 = 5fdfee91d2900411e1197b8f3e95e1ed420f2495
+获取sonic diff耗时6
+获取sonic diff耗时0
+sonic_processing_time: 12.833ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 5fdfee91d2900411e1197b8f3e95e1ed420f2495
+页面md5 = 9a16902defb27f9a6d4c5ba8d6d2ef4184dbad99
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.955ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 9a16902defb27f9a6d4c5ba8d6d2ef4184dbad99
+页面md5 = 0030199486e8b3f20ae4b2902990977e95e95390
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.652ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 9a16902defb27f9a6d4c5ba8d6d2ef4184dbad99
+页面md5 = 68601c89c32ca5ee803ace39e4f8c4fe0ec09915
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 3.885ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 9a16902defb27f9a6d4c5ba8d6d2ef4184dbad99
+页面md5 = 0fa5162d97b0f8af8de18c61d076e41b06db51ea
+获取sonic diff耗时0
+获取sonic diff耗时1
+sonic_processing_time: 0.706ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 9a16902defb27f9a6d4c5ba8d6d2ef4184dbad99
+页面md5 = f7dc19cbe41d00532b250315dc4c43df758e2131
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.612ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 9a16902defb27f9a6d4c5ba8d6d2ef4184dbad99
+页面md5 = b212ae7786b8e74591c81ae66524825b05997b40
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.523ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 9a16902defb27f9a6d4c5ba8d6d2ef4184dbad99
+页面md5 = ccadcfb46e24e9d79465c3a2216039578fd11baa
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 1.301ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 9a16902defb27f9a6d4c5ba8d6d2ef4184dbad99
+页面md5 = 7eef87f419b756f24c8e1b706d155ce60ff7ccbd
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.557ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 9a16902defb27f9a6d4c5ba8d6d2ef4184dbad99
+页面md5 = c20ccb11cb86d2d6fe7f54ed687cc55023a4ffa6
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.890ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = c20ccb11cb86d2d6fe7f54ed687cc55023a4ffa6
+页面md5 = 6f57872a2e55c9338f18ebbb9f35ec3965fc6b44
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.604ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 6f57872a2e55c9338f18ebbb9f35ec3965fc6b44
+页面md5 = 19a9945270ec22ea3a30c2df06c932eae16677f7
+获取sonic diff耗时0
+获取sonic diff耗时1
+sonic_processing_time: 0.700ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 6f57872a2e55c9338f18ebbb9f35ec3965fc6b44
+页面md5 = 4e5c8ab0ae15a86adf86512908c9a6a0bcb63bd4
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 1.117ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 6f57872a2e55c9338f18ebbb9f35ec3965fc6b44
+页面md5 = 0a10c7376f9183e05e06586e1ad8b9c2c674eb18
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.694ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 6f57872a2e55c9338f18ebbb9f35ec3965fc6b44
+页面md5 = 63e20b4aa637a568b9ce0e34b8abcf3b188dfc8e
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 1.470ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 63e20b4aa637a568b9ce0e34b8abcf3b188dfc8e
+页面md5 = 472a949256ccd455af4e757f48c258bb1d41bbd6
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 1.179ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 472a949256ccd455af4e757f48c258bb1d41bbd6
+页面md5 = 32b73f670c12d440cf563b2702b3969b04187b56
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.810ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 472a949256ccd455af4e757f48c258bb1d41bbd6
+页面md5 = 268dad767b2330ebc894fbc3c8d2ded51e02ca2d
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.605ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 472a949256ccd455af4e757f48c258bb1d41bbd6
+页面md5 = ec13106d1ea7fc090ce5ebbad837c0c62092ec8b
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.764ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 472a949256ccd455af4e757f48c258bb1d41bbd6
+页面md5 = 4377a6ec36ef6189199fd30d1389368438cd04da
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.885ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 4377a6ec36ef6189199fd30d1389368438cd04da
+页面md5 = 1f8168bb47c8ac23c9828deb26ad5685176a5521
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.725ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 4377a6ec36ef6189199fd30d1389368438cd04da
+页面md5 = 4aa4aa322648b2b98f5aacdd13a05fca7038724c
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.959ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 4377a6ec36ef6189199fd30d1389368438cd04da
+页面md5 = d1252a1a03aac39b75c313f8a126fb7267a481c6
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.501ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 4377a6ec36ef6189199fd30d1389368438cd04da
+页面md5 = c630938b3f1976d31bcaef4b81a6565c8e7f0d94
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.818ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = c630938b3f1976d31bcaef4b81a6565c8e7f0d94
+页面md5 = 41cfacefb35039d169d9227e0d0b3a783c3f5924
+获取sonic diff耗时0
+获取sonic diff耗时1
+sonic_processing_time: 0.606ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 41cfacefb35039d169d9227e0d0b3a783c3f5924
+页面md5 = 97aa77cf41368d8beec30ee3f4912b1477702ca5
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.741ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 97aa77cf41368d8beec30ee3f4912b1477702ca5
+页面md5 = 4aaf586645451be15318589996eb9f0b3f727978
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.678ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 4aaf586645451be15318589996eb9f0b3f727978
+页面md5 = 439e6dbdb5e2f4b4d4331a1d7cfb477976f47d0d
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.787ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 439e6dbdb5e2f4b4d4331a1d7cfb477976f47d0d
+页面md5 = 205367be4c2e933796893016c074caf7b8ae4413
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.711ms
+sonic 非缓存模式
+**********************************分界线******************************
+sonic 开始拦截返回数据
+请求头etag = 205367be4c2e933796893016c074caf7b8ae4413
+页面md5 = 2867949f8e458a51670750ffb361ca64567791b9
+获取sonic diff耗时0
+获取sonic diff耗时0
+sonic_processing_time: 0.668ms
+sonic 非缓存模式

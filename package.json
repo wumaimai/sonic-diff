@@ -19,6 +19,7 @@
   "dependencies": {
     "koa": "^2.5.0",
     "koa-router": "^7.4.0",
+    "koa-session": "^5.8.1",
     "sonic_differ": "^1.0.7",
     "through2": "^2.0.3"
   }

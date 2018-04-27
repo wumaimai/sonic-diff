@@ -2,8 +2,8 @@ const path = require('path');
 
 module.exports = {
     '/tpl1' : {
-        template: path.resolve(__dirname, '../assets/page/tpls/tpls1.js')
-        //data: path.resolve(__dirname, '../assets/page/data/data1.js')
+        template: path.resolve(__dirname, '../assets/page/tpls/tpls1.js'),
+        data: path.resolve(__dirname, '../assets/page/data/data1.js')
     },
     '/tpl2' : {
         template: path.resolve(__dirname, '../assets/page/template2.js'),
