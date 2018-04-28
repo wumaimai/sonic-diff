@@ -22,7 +22,11 @@ var __p=[],_p=function(s){__p.push(s)};
  if(data.templateFlag){ ;_p('            <h2>\r\n\
                 现在的时间是:');
 ;_p(__e( (new Date()).toLocaleString() ));
-;_p('            </h2>');
+;_p('            </h2>\r\n\
+            <p>\r\n\
+                然后没事随机生成一个token：');
+;_p(__e( data.token ));
+;_p('            </p>');
  } ;_p('    </div>');
  var tplsHtml = data.dataResult.tplsData; ;_p('    ');
  for(var i = 0; i < tplsHtml.length; i++){ ;_p('    <div id="data');

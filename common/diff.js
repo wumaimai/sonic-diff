@@ -26,7 +26,7 @@ module.exports = function (ctx, buffer) {
 		let htmlStr = buffer.toString('utf8');
 		//替换 &&提取　title，body
 		let title = "";
-
+		
 		let now2 = Date.now();
 		let templateHtml = htmlStr.replace(/<title(.*?)<\/title>/i, function (titleHtml) {
 			title = titleHtml;
