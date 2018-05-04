@@ -14,6 +14,11 @@ var __p=[],_p=function(s){__p.push(s)};
 ;_p('</head>\r\n\
 <body onload="init()">\r\n\
     <div>\r\n\
+        <h1>我是一段不会变的数据模板:');
+;_p(__e( data.chinaDate ));
+;_p('</h1>\r\n\
+    </div>\r\n\
+    <div>\r\n\
         <!--sonicdiff-data1-->\r\n\
         <p id="data1"></p>\r\n\
         <!--sonicdiff-data1-end-->\r\n\
