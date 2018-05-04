@@ -6,8 +6,8 @@ module.exports = {
         data: path.resolve(__dirname, '../assets/page/data/data1.js')
     },
     '/tpl2' : {
-        template: path.resolve(__dirname, '../assets/page/template2.js'),
-        data: path.resolve(__dirname, '../assets/page/data2.js')
+        template: path.resolve(__dirname, '../assets/page/tpls/tpls2.js'),
+        data: path.resolve(__dirname, '../assets/page/data/data2.js')
     },
     '/tpl3' : {
         template: path.resolve(__dirname, '../assets/page/template3.js'),

@@ -15,25 +15,25 @@ module.exports = () => {
 		if (!body) return;
 
 		if (isJSON(body)) body = ctx.body = JSON.stringify(body);
-		//let encoding = ctx.acceptsEncodings('gzip', 'deflate', 'identity');
-		//if (!encoding) ctx.throw(406, 'supported encodings: gzip, deflate, identity');
-		//if (encoding === 'identity') return;
-		//if (ctx.response.length < 2048) return;
+		let encoding = ctx.acceptsEncodings('gzip', 'deflate', 'identity');
+		if (!encoding) ctx.throw(406, 'supported encodings: gzip, deflate, identity');
+		if (encoding === 'identity') return;
+		if (ctx.response.length < 2048) return;
 
-		//ctx.set('Content-Encoding', encoding);
-		//ctx.res.removeHeader('Content-Length');
+		ctx.set('Content-Encoding', encoding);
+		ctx.res.removeHeader('Content-Length');
 
-		// let zip = ctx.body = method[encoding]({
-		// 	flush: require('zlib').Z_SYNC_FLUSH
-		// });
+		let zip = ctx.body = method[encoding]({
+			flush: require('zlib').Z_SYNC_FLUSH
+		});
 
-		// zip.on('error', err => {
-		// 	console.info(err)
-		// });
+		zip.on('error', err => {
+			console.info(err)
+		});
 
-		// zip.on('finish', () => {
-		// 	console.info('zip succ')
-		// });
+		zip.on('finish', () => {
+			console.info('zip succ')
+		});
 
 		let sonic = {
 			buffer: [],
@@ -50,38 +50,29 @@ module.exports = () => {
 		function getDiff() {
 			console.info('sonic 开始拦截返回数据');
 			body.on('data', (chunk, encoding) => {
-				console.time("sonic_processing_time");
 				sonic.write(chunk, encoding)
 			});
 
 			body.on('end', () => {
+				console.time('differ_time');
 				let result = differ(ctx, Buffer.concat(sonic.buffer));
-				console.timeEnd("sonic_processing_time");
+				console.timeEnd('differ_time');
 				sonic.buffer = [];
 				if (result.cache) {
 					console.info('sonic 完全cache');
-					//zip.end()
-					return '';
+					zip.end()
 				} else {
 					console.info('sonic 非缓存模式');
-					return result.data;
-					//zip.end(result.data)
+					zip.end(result.data)
 				}
-				
 			})
 		}
 
-		if(ctx.get('accept-diff'))
-		{
-			console.info("**********************************分界线******************************");
-			getDiff()
+		try {
+			body instanceof stream ? ctx.get('accept-diff') ? getDiff() : body.pipe(zip) : zip.end(body);
+		} catch (e) {
+			console.info('zip error');
+			console.error(e)
 		}
-
-		// try {
-		// 	body instanceof stream ? ctx.get('accept-diff') ? getDiff() : body.pipe(zip) : zip.end(body);
-		// } catch (e) {
-		// 	console.info('zip error');
-		// 	console.error(e)
-		// }
 	}
 };

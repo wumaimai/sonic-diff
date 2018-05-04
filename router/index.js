@@ -1,5 +1,8 @@
 const routerConfig = require('./config');
 const through2 = require('through2');
+const fs = require('fs');
+const path = require('path');
+const crypto = require('crypto');
 
 module.exports = () => {
 	return async function (ctx, next) {
@@ -20,7 +23,23 @@ module.exports = () => {
 			} catch (e) {
 				console.error(e);
 			}
-		} else {
+		}
+		else if(pathname == '/data')
+		{
+			try{
+				let dataResult = JSON.parse(fs.readFileSync(path.join(__dirname, '../assets/page/json/ten.json'),"utf-8"));
+				let tplsData = dataResult.tplsData;
+				
+				for(let i = 0; i < tplsData.length; i++){
+					tplsData[i].token = crypto.randomBytes(500).toString('hex');
+				}
+				
+				ctx.body = dataResult;
+			} catch (e) {
+				console.error(e);
+			}
+		}
+		else {
 			console.log('路由未配置', pathname);
 		}
 	}

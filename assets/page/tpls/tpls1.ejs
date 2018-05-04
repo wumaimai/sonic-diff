@@ -7,60 +7,19 @@
 </head>
 <body>
     <div>
+        <!--sonicdiff-data1-->
         <h1>
-            新中国成立的时间是：<%=data.dataResult.dataDate%>
+            新中国成立的时间是：<%=data.dataDate%>
         </h1>
-`
-        <% if(data.templateFlag){ %>
+        <!--sonicdiff-data1-end-->
+    </div>
+    <div>
+        <!--sonicdiff-data2-->
             <h2>
                 现在的时间是:<%= (new Date()).toLocaleString() %>
             </h2>
-            <p>
-                然后没事随机生成一个token：<%= data.token %>
-            </p>
-        <% } %>
+        <!--sonicdiff-data2-end-->
     </div>
-    <% var tplsHtml = data.dataResult.tplsData; %>
-    <% for(var i = 0; i < tplsHtml.length; i++){ %>
-    <div id="data<%= tplsHtml[i].id %>Content">
-        <%= tplsHtml[i].html %>
-    </div>
-    <% } %>
     
-
-    <script>
-        <% if(data.sonicStatus != 0){ %>
-        /**
-         * sonic业务逻辑 diff数据处理，后置函数执行，状态上报
-         * @param sonicStatus
-         * @param reportSonicStatus
-         * @param sonicUpdateData
-         */
-        window.sonicStartTime = new Date;
-        //0-状态获取失败 1-sonic首次 2-页面刷新 3-局部刷新 4-完全cache
-        sonic.getSonicData(function(sonicStatus, reportSonicStatus, sonicUpdateData){
-            if(sonicStatus == 1){
-                //首次没有特殊的逻辑处理，直接执行sonic完成后的逻辑，比如上报等
-            }else if(sonicStatus == 2){
-
-            }else if(sonicStatus == 3){
-                console.log("局部刷新的时候需要更新页面的数据块和一些JS操作");
-                //局部刷新的时候需要更新页面的数据块和一些JS操作
-                var html = '';
-                var id = '';
-                var elementObj = '';
-                for(var key in sonicUpdateData){
-                    id = key.substring(1,key.length-1);
-                    html = sonicUpdateData[key];
-                    elementObj = document.getElementById(id+'Content');
-                    elementObj.innerHTML = html;
-                }
-
-            }else if(sonicStatus == 4){
-                
-            }
-        });
-        <% } %>
-    </script>
 </body>
 </html>
