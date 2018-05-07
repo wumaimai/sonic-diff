@@ -20,7 +20,13 @@ var __p=[],_p=function(s){__p.push(s)};
 ;_p('</h1>\r\n\
         <!--sonicdiff-data1-end-->\r\n\
     </div>\r\n\
-    \r\n\
+\r\n\
+    <div>\r\n\
+        <!--sonicdiff-data2-->\r\n\
+        <h2>我只是数据发生变化</h2>');
+ if(data.templateFlag){ ;_p('            <p>我的模板小小的改变了一下</p>');
+ } ;_p('        <!--sonicdiff-data2-end-->\r\n\
+    </div>\r\n\
 \r\n\
     <div>\r\n\
         <!--sonicdiff-data3-->');
@@ -31,6 +37,9 @@ var __p=[],_p=function(s){__p.push(s)};
 ;_p(__e( tokens[i].token ));
 ;_p('</p>');
  } ;_p('        <!--sonicdiff-data3-end-->\r\n\
+    </div>\r\n\
+    <div>\r\n\
+        \r\n\
     </div>\r\n\
 </body>\r\n\
 </html>');

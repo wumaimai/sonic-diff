@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- (require('./common/common_meta'))() %>
+    <title>tpl1</title>
+    <%- (require('./common/common_header'))() %>
+</head>
+<body onload="init()">
+    <div>
+        <h1>我是一段不会变的数据模板:<%= data.chinaDate %></h1>
+    </div>
+    <div>
+        <!--sonicdiff-data1-->
+        <p id="data1"></p>
+        <!--sonicdiff-data1-end-->
+    </div>
+    <div>
+        <!--sonicdiff-data2-->
+        <p id="data2"></p>
+        <!--sonicdiff-data2-end-->
+    </div>
+    <div>
+        <!--sonicdiff-data3-->
+        <p id="data3"></p>
+        <!--sonicdiff-data3-end-->
+    </div>
+    <div>
+        <!--sonicdiff-data4-->
+        <p id="data4"></p>
+        <!--sonicdiff-data4-end-->
+    </div>
+    <div>
+        <!--sonicdiff-data5-->
+        <p id="data5"></p>
+        <!--sonicdiff-data5-end-->
+    </div>
+    <div>
+        <!--sonicdiff-data6-->
+        <p id="data6"></p>
+        <!--sonicdiff-data6-end-->
+    </div>
+    <div>
+        <!--sonicdiff-data7-->
+        <p id="data7"></p>
+        <!--sonicdiff-data7-end-->
+    </div>
+    <div>
+        <!--sonicdiff-data8-->
+        <p id="data8"></p>
+        <!--sonicdiff-data8-end-->
+    </div>
+    <div>
+        <!--sonicdiff-data9-->
+        <p id="data9"></p>
+        <!--sonicdiff-data9-end-->
+    </div>
+    <div>
+        <!--sonicdiff-data10-->
+        <p id="data10"></p>
+        <!--sonicdiff-data10-end-->
+    </div>
+
+
+    <script>
+        function init(){
+            var token = '';
+            var id = '';
+            var elementObj = '';
+            var results = '<%- JSON.stringify(data.tplsData) %>';
+            results = JSON.parse(results);
+            for(var key in results){
+                var result = results[key]
+                id = result.id;
+                token = result.token;
+                elementObj = document.getElementById('data'+id);
+                elementObj.innerText = token;
+            }
+        }
+    </script>
+</body>
+</html>

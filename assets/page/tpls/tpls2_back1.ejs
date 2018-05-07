@@ -11,7 +11,15 @@
         <h1>我什么都不会变:<%= data.chinaDate %></h1>
         <!--sonicdiff-data1-end-->
     </div>
-    
+
+    <div>
+        <!--sonicdiff-data2-->
+        <h2>我只是数据发生变化</h2>
+        <% if(data.templateFlag){ %>
+            <p>我的模板小小的改变了一下</p>
+        <% } %>
+        <!--sonicdiff-data2-end-->
+    </div>
 
     <div>
         <!--sonicdiff-data3-->
@@ -20,6 +28,9 @@
             <p>我是第<%= i %>个token:<%= tokens[i].token %></p>
         <% } %>
         <!--sonicdiff-data3-end-->
+    </div>
+    <div>
+        
     </div>
 </body>
 </html>
